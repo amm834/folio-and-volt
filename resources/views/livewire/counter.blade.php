@@ -8,9 +8,8 @@ $increment = fn() => $this->count++;
 ?>
 
 <div>
-
-    <div>
+    <p>
         Counter: {{ $count }}
-    </div>
+    </p>
     <x-primary-button wire:click="increment">Upvote</x-primary-button>
 </div>
