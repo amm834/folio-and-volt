@@ -23,6 +23,8 @@ name('dashboard');
 
                     <div class="mt-8">
                         <livewire:counter/>
+
+                        <livewire:username :username="auth()->user()->name"/>
                     </div>
                 </div>
             </div>
